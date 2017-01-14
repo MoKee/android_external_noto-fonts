@@ -34,6 +34,8 @@ PRODUCT_PACKAGES := \
     NotoSansBuginese-Regular.ttf \
     NotoSansBuhid-Regular.ttf \
     NotoSansCJK-Regular.ttc \
+    NotoSansCJK-Medium.ttc \
+    NotoSansCJK-Bold.ttc \
     NotoSansCanadianAboriginal-Regular.ttf \
     NotoSansCham-Regular.ttf \
     NotoSansCham-Bold.ttf \
