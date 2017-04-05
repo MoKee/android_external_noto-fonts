@@ -33,9 +33,9 @@ PRODUCT_PACKAGES := \
     NotoSansBengaliUI-Bold.ttf \
     NotoSansBuginese-Regular.ttf \
     NotoSansBuhid-Regular.ttf \
-    NotoSerifCJK-Regular.ttc \
-    NotoSerifCJK-Medium.ttc \
-    NotoSerifCJK-Bold.ttc \
+    NotoSansCJK-Regular.ttc \
+    NotoSansCJK-Medium.ttc \
+    NotoSansCJK-Bold.ttc \
     NotoSansCanadianAboriginal-Regular.ttf \
     NotoSansCham-Regular.ttf \
     NotoSansCham-Bold.ttf \
