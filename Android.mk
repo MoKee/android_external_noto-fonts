@@ -39,9 +39,9 @@ ifneq ($(SMALLER_FONT_FOOTPRINT),true)
 LOCAL_PATH := $(NOTO_DIR)/cjk
 
 font_src_files := \
-    NotoSansCJK-Regular.ttc \
-    NotoSansCJK-Medium.ttc \
-    NotoSansCJK-Bold.ttc
+    NotoSerifCJK-Regular.ttc \
+    NotoSerifCJK-Medium.ttc \
+    NotoSerifCJK-Bold.ttc
 
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 font_src_files :=
