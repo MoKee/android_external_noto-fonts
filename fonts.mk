@@ -46,7 +46,12 @@ PRODUCT_PACKAGES := \
     NotoSansCham-Bold.ttf \
     NotoSansCham-Regular.ttf \
     NotoSansCherokee-Regular.ttf \
+    NotoSansCJK-Thin.ttc \
+    NotoSansCJK-Light.ttc \
     NotoSansCJK-Regular.ttc \
+    NotoSansCJK-Medium.ttc \
+    NotoSansCJK-Bold.ttc \
+    NotoSansCJK-Black.ttc \
     NotoSansCoptic-Regular.ttf \
     NotoSansCuneiform-Regular.ttf \
     NotoSansCypriot-Regular.ttf \
@@ -191,7 +196,12 @@ PRODUCT_PACKAGES := \
     NotoSerifArmenian-Regular.ttf \
     NotoSerifBengali-Bold.ttf \
     NotoSerifBengali-Regular.ttf \
+    NotoSerifCJK-ExtraLight.ttc \
+    NotoSerifCJK-Light.ttc \
     NotoSerifCJK-Regular.ttc \
+    NotoSerifCJK-Medium.ttc \
+    NotoSerifCJK-Bold.ttc \
+    NotoSerifCJK-Black.ttc \
     NotoSerifDevanagari-Bold.ttf \
     NotoSerifDevanagari-Regular.ttf \
     NotoSerifEthiopic-Bold.otf \

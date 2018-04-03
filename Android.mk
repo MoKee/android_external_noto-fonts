@@ -43,6 +43,15 @@ LOCAL_PATH := $(NOTO_DIR)/cjk
 font_src_files := \
     NotoSansCJK-Regular.ttc
 
+ifneq ($(USE_REDUCED_CJK_FONT_WEIGHTS),true)
+font_src_files += \
+    NotoSansCJK-Thin.ttc \
+    NotoSansCJK-Light.ttc \
+    NotoSansCJK-Medium.ttc \
+    NotoSansCJK-Bold.ttc \
+    NotoSansCJK-Black.ttc
+endif
+
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 font_src_files :=
 
@@ -57,6 +66,15 @@ LOCAL_PATH := $(NOTO_DIR)/cjk
 
 font_src_files := \
     NotoSerifCJK-Regular.ttc
+
+ifneq ($(USE_REDUCED_CJK_FONT_WEIGHTS),true)
+font_src_files += \
+    NotoSerifCJK-ExtraLight.ttc \
+    NotoSerifCJK-Light.ttc \
+    NotoSerifCJK-Medium.ttc \
+    NotoSerifCJK-Bold.ttc \
+    NotoSerifCJK-Black.ttc
+endif
 
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 font_src_files :=
