@@ -46,7 +46,12 @@ PRODUCT_PACKAGES := \
     NotoSansCham-Bold.ttf \
     NotoSansCham-Regular.ttf \
     NotoSansCherokee-Regular.ttf \
+    NotoSansCJK-Thin.ttc \
+    NotoSansCJK-Light.ttc \
     NotoSansCJK-Regular.ttc \
+    NotoSansCJK-Medium.ttc \
+    NotoSansCJK-Bold.ttc \
+    NotoSansCJK-Black.ttc \
     NotoSansCoptic-Regular.ttf \
     NotoSansCuneiform-Regular.ttf \
     NotoSansCypriot-Regular.ttf \
