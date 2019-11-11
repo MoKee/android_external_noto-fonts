@@ -239,3 +239,13 @@ PRODUCT_PACKAGES := \
     NotoSerifTelugu-Regular.ttf \
     NotoSerifThai-Bold.ttf \
     NotoSerifThai-Regular.ttf
+
+ifneq ($(USE_REDUCED_CJK_FONT_WEIGHTS),true)
+PRODUCT_PACKAGES := \
+    NotoSansCJK-Thin.ttc \
+    NotoSansCJK-Light.ttc \
+    NotoSansCJK-Medium.ttc \
+    NotoSansCJK-Bold.ttc \
+    NotoSansCJK-Black.ttc \
+    NotoSerifCJK-Bold.ttc
+endif
